@@ -1,0 +1,33 @@
+{
+  "author": "Golyshev Dmitrii <golyshev.dmitry@yandex.ru>",
+  "bugs": {
+    "url": "https://github.com/fistlabs/one-guide/issues"
+  },
+  "contributors": [
+    "Golyshev Dmitrii <golyshev.dmitry@yandex.ru>"
+  ],
+  "dependencies": {
+    "gulp-util": "3.0.2",
+    "one-guide": ">= 0.0.2 && <= 1",
+    "through2": "0.6.3",
+    "lodash-node": "3.0.1"
+  },
+  "peerDependencies": {
+    "gulp": ">= 3.8.10 && <= 4"
+  },
+  "devDependencies": {
+    "glob": "4.3.5",
+    "gulp": ">= 3.8.10 && <= 4",
+    "gulp-mocha": "2.0.0",
+    "gulp-istanbul": "0.5.0"
+  },
+  "description": "Gulp plugin for one-guide",
+  "license": "MIT",
+  "main": "gulp-one-guide",
+  "name": "gulp-one-guide",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fistlabs/gulp-one-guide.git"
+  },
+  "version": "0.0.1"
+}

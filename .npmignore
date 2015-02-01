@@ -1,0 +1,7 @@
+/coverage
+/node_modules
+/tools
+/test
+/Gulpfile.js
+/.*
+*.log
