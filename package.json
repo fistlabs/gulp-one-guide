@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "gulp-util": "3.0.2",
-    "one-guide": ">= 0.0.2 && <= 1",
+    "one-guide": ">= 0.1.0 && <= 1",
     "through2": "0.6.3",
     "lodash-node": "3.0.1"
   },

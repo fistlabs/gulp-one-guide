@@ -3,8 +3,6 @@
 var OneGuide = require('one-guide/lib/one-guide');
 var PluginError = require('gulp-util').PluginError;
 
-var _ = require('lodash-node');
-var adapters = require('one-guide/lib/adapters');
 var through = require('through2');
 
 function mkError(message) {
@@ -12,9 +10,7 @@ function mkError(message) {
 }
 
 module.exports = function (options) {
-    var checkFlow = new OneGuide(_.extend({}, options, {
-        adapters: adapters
-    }));
+    var checkFlow = new OneGuide(options);
 
     return through.obj(function (file, enc, cb) {
         if (file.isNull()) {
