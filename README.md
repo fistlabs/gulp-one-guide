@@ -11,6 +11,7 @@ gulp.task('lint', function () {
     return this.src([
         'lib/**/*.js'
     ]).pipe(oneGuidePipe({
+        config: 'yandex-node',
         root: process.cwd(),
         excludes: lintConf.excludes
     }));
