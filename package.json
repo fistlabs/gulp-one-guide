@@ -7,19 +7,19 @@
     "Golyshev Dmitrii <golyshev.dmitry@yandex.ru>"
   ],
   "dependencies": {
-    "gulp-util": "3.0.2",
-    "one-guide": ">= 0.1.0 && <= 1",
+    "gulp-util": "3.0.4",
+    "one-guide": ">= 0.2.0 && <= 1",
     "through2": "0.6.3",
-    "lodash-node": "3.0.1"
+    "lodash-node": "3.3.1"
   },
   "peerDependencies": {
-    "gulp": ">= 3.8.10 && <= 4"
+    "gulp": ">= 3.8.11 && <= 4"
   },
   "devDependencies": {
-    "glob": "4.3.5",
-    "gulp": ">= 3.8.10 && <= 4",
+    "glob": "4.4.0",
+    "gulp": ">= 3.8.11 && <= 4",
     "gulp-mocha": "2.0.0",
-    "gulp-istanbul": "0.5.0"
+    "gulp-istanbul": "0.6.0"
   },
   "description": "Gulp plugin for one-guide",
   "license": "MIT",
